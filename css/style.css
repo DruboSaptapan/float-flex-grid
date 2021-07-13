@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------
+with float 
+--------*/
+#float{
+    background-color: #ffc2c2;
+    height: 376px;
+    margin-bottom: 10px;
+}
+#float h1{
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+#float .table{
+    float: left;
+    height: 250px;
+    width: 275px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px dotted #000;
+}
+#float .table h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+}
+#float .table p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+/*--------
+with flex
+--------*/
+#flex{
+    background-color: #c3dbff;
+    padding-bottom: 10px;
+}
+#flex h1{
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+#flex h2{
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 26px;
+}
+#flex .align .tables{
+    display: flex;
+    align-items: center;
+}
+#flex .justify .tables{
+    display: flex;
+    justify-content: center;
+}
+#flex .space-around .tables{
+    display: flex;
+    justify-content: space-around;
+}
+#flex .space-between .tables{
+    display: flex;
+    justify-content: space-between;
+}
+#flex .space-evenly .tables{
+    display: flex;
+    justify-content: space-evenly;
+}
+#flex .table{
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px dotted #000;
+}
+#flex .table h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+}
+#flex .table p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+/*--------
+with grid
+--------*/
+#grid{
+    background-color: #bcffb9;
+    padding-bottom: 10px;
+}
+#grid h1{
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+#grid .tables{
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+#grid .table{
+    border: 1px dotted #000;
+}
+#grid .table h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+}
+#grid .table p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    width: 80px;
+    padding: 10px 15px;
+    margin: 5px;
+    background-image: linear-gradient(120deg,#4738c3,#17a2cc);
+    border-radius: 25px;
+}
+.link a{
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
